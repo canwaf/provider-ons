@@ -1,0 +1,12 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description
+adult-social-care,Adult Social Care,adult-social-care,,0,
+children-s-social-care,Children's Social Care,children-s-social-care,,1,
+defence,Defence,defence,,2,
+education,Education,education,,3,
+healthcare,Healthcare,healthcare,,4,
+other,Other,other,,5,
+police,Police,police,,6,
+public-order-safety,Public Order & Safety,public-order-safety,,7,
+social-security-administration,Social Security Administration,social-security-administration,,8,
+total,Total,total,,9,
+total-quality-adjustment-index,Total Quality Adjustment Index,total-quality-adjustment-index,,10,

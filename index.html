@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+    </head>
+    <body>
+    <h3>CSV-Ws generated are as below. The latest commit id is 00b6cb86afbe2da57a9e6899bdcd5af0488c229f.</h3>
+    <div id="files-container"></div>
+    <script type="text/javascript">
+        var html_str = "<ul>";
+        var files = "|||out/public-service-productivity/draft-public-service-productivity-estimates-total-public-service.csv-metadata.json|||out/public-service-productivity/year.csv-metadata.json_inspect_output.txt|||out/public-service-productivity/service-area.csv-metadata.json|||out/public-service-productivity/draft-public-service-productivity-estimates-total-public-service.csv|||out/public-service-productivity/draft-public-service-productivity-estimates-total-public-service.csv-metadata.json_inspect_output.txt|||out/public-service-productivity/service-area.csv|||out/public-service-productivity/year.csv-metadata.json|||out/public-service-productivity/year.csv|||out/public-service-productivity/service-area.csv-metadata.json_inspect_output.txt|||out/public-service-productivity/service-area.table.json|||out/public-service-productivity/year.table.json".split('|||');
+        files.shift()
+        files.sort()
+        files.forEach(function(file) {
+        file = file.replace("./","")
+        link = "https://canwaf.github.io/provider-ons/"+file
+        html_str += "<li>"+"<a href='"+ link + "'>"+file+"</a></li>";
+        });
+        html_str += "</ul>";
+        document.getElementById("files-container").innerHTML = html_str;
+    </script>
+    </body>
+</html>

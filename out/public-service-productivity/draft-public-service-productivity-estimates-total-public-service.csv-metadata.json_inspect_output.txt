@@ -1,0 +1,75 @@
+
+- This file is a data cube.
+
+
+        - The data cube has the following catalog metadata:
+          - Title: DRAFT Public service productivity estimates: total public service
+          - Label: DRAFT Public service productivity estimates: total public service
+          - Issued: 2023-04-28T00:00:00
+          - Modified: 2023-04-28T00:00:00
+          - License: None
+          - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: None
+          - Keywords: 
+		-- productivity
+          - Contact Point: None
+          - Identifier: DRAFT Public service productivity estimates: total public service
+          - Comment: Output, inputs and productivity for UK public services.
+          - Description: This data set describes the volume of services delivered to end users relative to the volume of total inputs. Inputs are generally labour, intermediate consumption, and capital. The measure is dominated by health and educate services because of their relative size.
+        
+
+ - The data cube has the following column component information: 
+    - Dataset Label: DRAFT Public service productivity estimates: total public service
+    - Columns: 
+           Title         Type  Required                                                                                Property URL Observations Column Titles
+            Year    Dimension      True         draft-public-service-productivity-estimates-total-public-service.csv#dimension/year                           
+    Service Area    Dimension      True draft-public-service-productivity-estimates-total-public-service.csv#dimension/service-area                           
+             obs Observations      True     draft-public-service-productivity-estimates-total-public-service.csv#measure/{+measure}                           
+         measure     Measures      True                                                http://purl.org/linked-data/cube#measureType                           
+    - Columns where suppress output is true: None
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 2
+        - Code Lists:
+                 Code List Code List Label Columns Used In
+service-area.csv#code-list    Service Area    Service Area
+        year.csv#code-list            Year            Year
+
+- The data cube has the following dataset information:
+        - Number of Observations: 758
+        - Number of Duplicates: 0
+        - First 10 Observations: 
+ Year Service Area   obs                                       measure
+ 1997   healthcare 100.0 quality-adjusted-productivity-index-1997-base
+ 1998   healthcare 100.3 quality-adjusted-productivity-index-1997-base
+ 1999   healthcare 100.9 quality-adjusted-productivity-index-1997-base
+ 2000   healthcare 101.1 quality-adjusted-productivity-index-1997-base
+ 2001   healthcare 103.4 quality-adjusted-productivity-index-1997-base
+ 2002   healthcare 101.2 quality-adjusted-productivity-index-1997-base
+ 2003   healthcare 102.4 quality-adjusted-productivity-index-1997-base
+ 2004   healthcare 104.3 quality-adjusted-productivity-index-1997-base
+ 2005   healthcare 105.6 quality-adjusted-productivity-index-1997-base
+ 2006   healthcare 108.9 quality-adjusted-productivity-index-1997-base
+        - Last 10 Observations: 
+ Year Service Area   obs                       measure
+ 2011        total 152.9 input-indices-index-1997-base
+ 2012        total 153.5 input-indices-index-1997-base
+ 2013        total 152.2 input-indices-index-1997-base
+ 2014        total 155.8 input-indices-index-1997-base
+ 2015        total 158.0 input-indices-index-1997-base
+ 2016        total 157.7 input-indices-index-1997-base
+ 2017        total 158.3 input-indices-index-1997-base
+ 2018        total 159.9 input-indices-index-1997-base
+ 2019        total 162.3 input-indices-index-1997-base
+ 2020        total 177.3 input-indices-index-1997-base
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+                                      Measure     Unit  Count
+                input-indices-index-1997-base Unitless    230
+      quality-adjusted-output-index-1997-base Unitless    264
+quality-adjusted-productivity-index-1997-base Unitless    264
+        

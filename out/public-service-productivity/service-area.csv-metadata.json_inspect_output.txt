@@ -1,0 +1,67 @@
+
+- This file is a code list.
+
+
+        - The code list has the following catalog metadata:
+          - Title: Service Area
+          - Label: Service Area
+          - Issued: 2023-07-03T12:56:10.362890
+          - Modified: 2023-07-03T12:56:10.362890
+          - License: None
+          - Creator: None
+          - Publisher: None
+          - Landing Pages: None
+          - Themes: None
+          - Keywords: None
+          - Contact Point: None
+          - Identifier: Service Area
+          - Comment: None
+          - Description: None
+        
+
+- The code list has the following dataset information:
+        - Number of Concepts: 11
+        - Number of Duplicates: 0
+        - First 10 Concepts: 
+                Uri Identifier                          Label                       Notation  Parent Uri Identifier  Sort Priority  Description
+             adult-social-care              Adult Social Care              adult-social-care                    NaN              0          NaN
+        children-s-social-care         Children's Social Care         children-s-social-care                    NaN              1          NaN
+                       defence                        Defence                        defence                    NaN              2          NaN
+                     education                      Education                      education                    NaN              3          NaN
+                    healthcare                     Healthcare                     healthcare                    NaN              4          NaN
+                         other                          Other                          other                    NaN              5          NaN
+                        police                         Police                         police                    NaN              6          NaN
+           public-order-safety          Public Order & Safety            public-order-safety                    NaN              7          NaN
+social-security-administration Social Security Administration social-security-administration                    NaN              8          NaN
+                         total                          Total                          total                    NaN              9          NaN
+        - Last 10 Concepts: 
+                Uri Identifier                          Label                       Notation  Parent Uri Identifier  Sort Priority  Description
+        children-s-social-care         Children's Social Care         children-s-social-care                    NaN              1          NaN
+                       defence                        Defence                        defence                    NaN              2          NaN
+                     education                      Education                      education                    NaN              3          NaN
+                    healthcare                     Healthcare                     healthcare                    NaN              4          NaN
+                         other                          Other                          other                    NaN              5          NaN
+                        police                         Police                         police                    NaN              6          NaN
+           public-order-safety          Public Order & Safety            public-order-safety                    NaN              7          NaN
+social-security-administration Social Security Administration social-security-administration                    NaN              8          NaN
+                         total                          Total                          total                    NaN              9          NaN
+total-quality-adjustment-index Total Quality Adjustment Index total-quality-adjustment-index                    NaN             10          NaN
+        
+
+- The code list has the following concepts information:
+        - Concepts hierarchy depth: 1
+        - Concepts hierarchy:
+root
+├── Adult Social Care
+├── Children's Social Care
+├── Defence
+├── Education
+├── Healthcare
+├── Other
+├── Police
+├── Public Order & Safety
+├── Social Security Administration
+├── Total
+└── Total Quality Adjustment Index
+
+        
