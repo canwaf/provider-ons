@@ -90,118 +90,69 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#class/year",
+            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/year",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/service-area"
-                },
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/input-indices-index-1997-base"
-                },
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/year"
-                },
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/unit"
-                },
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/quality-adjusted-productivity-index-1997-base"
-                },
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/quality-adjusted-output-index-1997-base"
-                },
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/measure-type"
-                }
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dimension/service-area"
-                },
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
                 {
                     "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dimension/year"
-                },
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.4"
+                }
+            ]
+        },
+        {
+            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/quality-adjusted-productivity-index-1997-base",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
                     "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/quality-adjusted-productivity-index-1997-base"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/input-indices-index-1997-base"
-                },
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/quality-adjusted-output-index-1997-base"
-                }
-            ]
-        },
-        {
-            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/quality-adjusted-output-index-1997-base",
-            "@type": [
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Quality Adjusted Output Index (1997 base)"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://purl.org/linked-data/cube#measure": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dimension/service-area",
-            "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "service-area.csv#code-list"
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/quality-adjusted-productivity-index-1997-base"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#order": [
                 {
-                    "@language": "en",
-                    "@value": "Service Area"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#class/service-area"
+                    "@value": 7
                 }
             ]
         },
         {
             "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/measure-type",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -220,75 +171,17 @@
             ]
         },
         {
-            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/service-area",
+            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/quality-adjusted-productivity-index-1997-base",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dimension/service-area"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dimension/service-area"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/ns/prov#Activity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.4"
-                }
-            ]
-        },
-        {
-            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/quality-adjusted-output-index-1997-base",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/quality-adjusted-output-index-1997-base"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/quality-adjusted-output-index-1997-base"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 6
-                }
-            ]
-        },
-        {
-            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/input-indices-index-1997-base",
-            "@type": [
-                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
+                "http://purl.org/linked-data/cube#MeasureProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Input Indices Index (1997 base)"
+                    "@value": "Quality Adjusted Productivity Index (1997 base)"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
@@ -298,13 +191,36 @@
             ]
         },
         {
+            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/input-indices-index-1997-base",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/input-indices-index-1997-base"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/input-indices-index-1997-base"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
             "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dataset",
             "@type": [
-                "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/ns/dcat#Dataset",
-                "http://purl.org/linked-data/cube#Attachable",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/dcat#Resource"
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://purl.org/linked-data/cube#DataSet",
+                "http://purl.org/linked-data/cube#Attachable"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -375,70 +291,17 @@
             ]
         },
         {
-            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/input-indices-index-1997-base",
+            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/input-indices-index-1997-base",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/input-indices-index-1997-base"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/input-indices-index-1997-base"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#class/service-area",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/year",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/quality-adjusted-productivity-index-1997-base",
-            "@type": [
-                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
+                "http://purl.org/linked-data/cube#MeasureProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Quality Adjusted Productivity Index (1997 base)"
+                    "@value": "Input Indices Index (1997 base)"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
@@ -448,13 +311,107 @@
             ]
         },
         {
+            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#structure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#DataStructureDefinition"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/service-area"
+                },
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/quality-adjusted-productivity-index-1997-base"
+                },
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/year"
+                },
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/measure-type"
+                },
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/unit"
+                },
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/quality-adjusted-output-index-1997-base"
+                },
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/input-indices-index-1997-base"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/quality-adjusted-output-index-1997-base"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dimension/year"
+                },
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/quality-adjusted-productivity-index-1997-base"
+                },
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/input-indices-index-1997-base"
+                },
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dimension/service-area"
+                }
+            ]
+        },
+        {
+            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dimension/service-area",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "service-area.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Service Area"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#class/service-area"
+                }
+            ]
+        },
+        {
+            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#class/year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#class/service-area",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
             "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dimension/year",
             "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -479,11 +436,54 @@
             ]
         },
         {
+            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/quality-adjusted-output-index-1997-base",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Quality Adjusted Output Index (1997 base)"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/service-area",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dimension/service-area"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dimension/service-area"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
             "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/unit",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -507,33 +507,33 @@
             ]
         },
         {
-            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/quality-adjusted-productivity-index-1997-base",
+            "@id": "draft-public-service-productivity-estimates-total-public-service.csv#component/quality-adjusted-output-index-1997-base",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/quality-adjusted-productivity-index-1997-base"
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/quality-adjusted-output-index-1997-base"
                 }
             ],
             "http://purl.org/linked-data/cube#measure": [
                 {
-                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/quality-adjusted-productivity-index-1997-base"
+                    "@id": "draft-public-service-productivity-estimates-total-public-service.csv#measure/quality-adjusted-output-index-1997-base"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 7
+                    "@value": 6
                 }
             ]
         },
         {
             "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dependency/year",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -549,8 +549,8 @@
         {
             "@id": "draft-public-service-productivity-estimates-total-public-service.csv#dependency/service-area",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -567,8 +567,8 @@
             "@id": "draft-public-service-productivity-estimates-total-public-service.csv#unit/unitless",
             "@type": [
                 "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
-                "http://qudt.org/schema/qudt/Unit",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {
