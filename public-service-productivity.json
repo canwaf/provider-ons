@@ -1,0 +1,30 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "DRAFT Public service productivity estimates: total public service",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "source": "https://www.ons.gov.uk/file?uri=/economy/economicoutputandproductivity/publicservicesproductivity/datasets/publicserviceproductivityestimatestotalpublicservice/2020/totalpspreferencetables2020.xlsx",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "dataset_issued": "2023-04-28",
+    "summary": "Output, inputs and productivity for UK public services.",
+    "keywords": "productivity",
+    "description": "This data set describes the volume of services delivered to end users relative to the volume of total inputs. Inputs are generally labour, intermediate consumption, and capital. The measure is dominated by health and educate services because of their relative size.",
+    "columns": {
+        "Year": {
+            "from_template": "year"
+        },
+        "Service Area": {
+            "type": "dimension"
+        },
+        "obs": {
+            "type": "observations",
+            "unit": {
+                "label": "Unitless",
+                "from_existing": "http://qudt.org/vocab/unit/UNITLESS"
+            }
+        },
+        "measure": {
+            "type": "measures"
+        }
+
+    }
+}
