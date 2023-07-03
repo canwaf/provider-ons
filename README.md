@@ -8,3 +8,6 @@ Please contact andrew.fergusson@ons.gov.uk if you have further questions.
 
 ## Representation status
 These data are in draft format, and will not be used beyond a Proof of Concept phase, and may be deleted from this or other systems without notice. There is no representation to quality or validity, and no cross checks have been performed. Use these data at your own risk.
+
+## Transformed data sets
+You can view the transformed datasets and their inspect outputs in the [gh-pages deployment](https://canwaf.github.io/provider-ons/).
